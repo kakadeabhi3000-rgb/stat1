@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY index.html .
-EXPOSE 8000
+COPY index.html /usr/share/nginx/html/index.html
+
