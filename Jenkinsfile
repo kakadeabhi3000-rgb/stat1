@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                     docker rm -f static-nginx || true
-                    docker run -d --name static-nginx -p 8000:8000 nginx-static-site
+                    docker run -d --name static-nginx -p 80:80 nginx-static-site
                 '''
             }
         }
