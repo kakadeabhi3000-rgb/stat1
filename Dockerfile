@@ -1,3 +1,3 @@
 FROM nginx:alpine
 COPY index.html .
-EXPOSE 80
+EXPOSE 8000
